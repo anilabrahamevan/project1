@@ -1,0 +1,691 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background-color:#03061a ;
+    }
+
+    .sorry{font-family: 'VT323', monospace;
+        color: white;
+        line-height: 500%;
+       
+    }
+
+.head{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headleft{
+    width: 50%;
+}
+.headright{
+    position: absolute;
+    display: flex;
+    margin-top: 10px;
+   right: 0;
+ 
+}
+.navItems>a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#started>a{
+    color: white;
+}
+
+#started{
+    background-color: #0061fe;
+    color: white;
+    padding: 12px 30px ;
+    margin-top: -10px;
+    transform: scale(.9);
+    border-radius: 100px;
+    
+}
+#started:hover{
+    background-color: #287afe;
+    transform: scale(.92) ;
+    animation: 1s;
+    cursor: pointer;
+}
+
+.navItems{
+    width:100px;
+    justify-content: left;
+   
+    margin: -10px 1px ;
+    text-align: center;
+    padding: 10px;
+}
+.navItems:active{
+   
+    background-color: #abadb1;
+   
+}
+
+.logos{
+    width: 210px;
+   
+}
+
+.logo1>img{
+    width: 100%;
+}
+
+.headContent{
+    width: 100%;
+}
+
+.headTitle{
+    width: 60%;
+    margin: 70px auto;
+    
+}
+
+.headTitle>h1{
+   display: grid;
+   text-align: center;
+   font-family: 'Space Grotesk', sans-serif;
+    line-height: 110%;
+    color: white;
+    font-size: 3rem;
+    
+}
+.headTitle>h2{
+   display: grid;
+   margin:  0 auto;
+   text-align: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.plan{
+    background-color: #0061fe;
+    width: fit-content;
+    margin: 0 auto 70px auto;
+    padding: 20px;
+    
+}
+.plan:hover{
+    cursor: pointer;
+    background-color: #287afe;
+    color: white;
+    
+}
+
+.plan>a{
+    color: #0C134F;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.plan:hover>a{
+    color: white;
+}
+
+.theme{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#detail{
+    margin: 30px auto 40px auto;
+    width: 370px;
+    font-family: 'Space Grotesk', sans-serif;   
+    color: white;
+    font-size: 150%;
+}
+
+#signUp{
+    margin: 30px auto;
+    width: fit-content;
+    /* background-color: #000000; */
+    font-family: 'Space Grotesk', sans-serif;   
+    color: rgb(0, 0, 0);
+    font-size: 280%;
+   padding: 40px;
+}
+
+.subContent{
+    width: 90%;
+    margin: 30px 100px;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    
+}
+
+.sub1{
+    width: 300px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+
+
+.sub1>p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#signIn{
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.use{
+    display: flex;
+    width: 80%;
+    margin: 0 auto 30px ;
+    padding-bottom: 30px;
+    color: white;
+    background-color: #242424a3;
+    border: 1px solid black;
+}
+
+.use1{
+    width: 1055px;
+   
+    
+    }
+.use1:first-child{
+    
+    margin-right: 3px;
+    border-right: 1px black solid;
+    
+    }
+.use1>p{
+    font-size: 1.8rem;
+    font-family: 'Space Grotesk', sans-serif;   
+    margin: 10px;
+    font-weight: bold;
+    }
+.use1>h5{
+    font-size: 1.1rem;
+    font-family: 'Questrial', sans-serif;
+    margin: 10px;
+    font-weight:500;    
+    }
+.useImg>img{
+   width: 100%;
+}
+
+.getwork {
+    background-color: #0061fe;
+    cursor: pointer;
+    color: black;
+    font-family: 'Questrial', sans-serif;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 3px;
+    font-size: 1.2rem;
+}
+.getwork:hover {
+    cursor: pointer;
+    background-color: #106bff;
+    color: white;
+}
+
+
+
+.casual{
+    margin-top: 34.5px;
+}
+
+
+#pricing{
+    margin: 30px auto;
+    width: fit-content;
+    /* background-color: #000000; */
+    font-family: 'Space Grotesk', sans-serif;   
+    color: rgb(255, 255, 255);
+    font-size: 280%;
+   padding: 40px;
+}
+
+#price{
+   
+    padding-bottom: 60px;
+   
+}
+
+.pricebox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto 30px auto ;
+    color: rgb(0, 0, 0);
+}
+
+.pricebox1{
+    text-align: center;
+    width: 47.3%;
+    margin-right: 20px;
+    background-color: #ffffff;
+}
+
+
+.pricebox1>p{
+    font-size: 1.8rem;
+    font-family: 'Space Grotesk', sans-serif;   
+    margin: 10px;
+    font-weight: bold;
+    }
+.pricebox1>h5{
+    font-size: 1.1rem;
+    font-family: 'Questrial', sans-serif;
+    margin: 10px;
+    font-weight:500;    
+    }
+
+    .getprice{
+        background-color: #0061fe;
+        cursor: pointer;
+        color: black;
+        font-family: 'Questrial', sans-serif;
+        width: 200px;
+        padding: 10px;
+       margin: 50px auto 10px auto;
+        font-size: 1.2rem;
+    }
+    .getprice:hover {
+        cursor: pointer;
+        background-color: #106bff;
+        color: white;
+    }
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: fit-content;
+    width: 100vw;
+}    
+
+.contactfooter{
+    
+    display: flex;
+    margin: 3rem;
+}
+
+.contact {
+    width: 50%;
+    margin: 2rem;
+}
+
+#contact2{
+    text-align: right;
+}
+
+.contact>h2{
+     font-size: 1rem;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact>p{
+    margin-top: 3%;
+    cursor: pointer;
+    font-size: .8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dropdown-container{
+    display: none;
+}
+
+.socials{
+    width: fit-content;
+    margin-top: -10rem;
+    position: relative;
+    margin-left: 4rem;
+    display: inline;
+}
+.socials>img{
+    margin: 10px;
+    width: 1.9rem;
+    background-color: #000000;
+}
+.socials>img:hover{
+    
+    background-color: #5d5d5d53;
+    
+}
+
+ /* CSS styling for responsive layout */
+
+                /* Styles for mobile devices */
+
+ @media (max-width: 640px) {
+
+    .plan{
+        display: none;
+    }
+    .headright{
+        display: none;
+       }
+       .dropdown-container{
+        display: block;
+    }
+    
+       .dropdown-container {
+        position: relative;
+      }
+      
+      .dropdown-menu {
+        display:none ;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        margin-top: -1.56rem;
+        left: 0;
+        background-color: #e4e4e4;
+        padding: 10px;
+        
+      }
+    
+      .menu-items{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .menu-items>a{
+        text-decoration: none;
+        color: black;
+        margin: 2rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .menu-items>a:hover{
+       color: #0061fe;
+      }
+    
+      .dropdown-trigger{
+        position: fixed;
+        right: 0;
+        top:0;
+        
+      }
+    
+      .dropdown-trigger>img{
+        width: 2.5rem;
+      }
+    
+      .dropdown-trigger:hover img{
+        transform: scale(.9);
+      }
+      
+      .dropdown-trigger:hover + .dropdown-menu,
+      .dropdown-menu:hover {
+        display: block;
+        
+      }
+      .subContent{
+        width: fit-content;
+        text-align: center;
+       margin: 0 auto 0 15% ;
+        color: white;
+        font-family: 'Questrial', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        
+    }
+    
+    .sub1{
+        width: 160px;
+       margin-bottom: 1rem;
+       text-align: center;
+     
+    }
+    
+    
+    
+    .sub1>p{
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .use{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto 30px ;
+        padding-bottom: 30px;
+        color: white;
+        background-color: #242424a3;
+        border: 1px solid black;
+    }
+    
+    .use1{
+        width: 1055px;
+       
+        
+        }
+    .use1:first-child{
+        
+        margin-right: 3px;
+        border-right: 0px black solid;
+        
+        }
+    .use1>p{
+        font-size: 1.8rem;
+        font-family: 'Space Grotesk', sans-serif;   
+        margin: 10px;
+        font-weight: bold;
+        }
+    .use1>h5{
+        font-size: 1.1rem;
+        font-family: 'Questrial', sans-serif;
+        margin: 10px;
+        font-weight:500;    
+        }
+    .useImg>img{
+       width: 100%;
+    }
+    
+    .getwork {
+        background-color: #0061fe;
+        cursor: pointer;
+        color: black;
+        font-family: 'Questrial', sans-serif;
+        width: fit-content;
+        padding: 10px;
+        margin-left: 3px;
+        font-size: 1.2rem;
+    }
+    .getwork:hover {
+        cursor: pointer;
+        background-color: #106bff;
+        color: white;
+    }
+    
+    
+    
+    .casual{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .work{
+        margin-bottom: -10px;
+    }
+
+    #pricing{
+        margin: 30px auto;
+        width: fit-content;
+        /* background-color: #000000; */
+        font-family: 'Space Grotesk', sans-serif;   
+        color: rgb(255, 255, 255);
+        font-size: 280%;
+       padding: 40px;
+    }
+    
+    #price{
+       
+        padding-bottom: 60px;
+       
+    }
+    
+    .pricebox{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto ;
+        color: rgb(0, 0, 0);
+        justify-content: center;
+    }
+    
+    .pricebox1{
+        text-align: center;
+        width: 47.3%;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+    }
+    
+    
+
+    
+        .getprice{
+            background-color: #0061fe;
+            cursor: pointer;
+            color: black;
+            font-family: 'Questrial', sans-serif;
+            width: fit-content;
+            padding: 10px;
+           margin: 50px auto 10px auto;
+            font-size: 1.2rem;
+        }
+      
+    
+    
+      
+    
+  }
+
+                /* Styles for tablets */
+
+  @media (min-width: 641px) and (max-width: 1024px) {
+   .headright{
+    display: none;
+   }
+   .dropdown-container{
+    display: block;
+}
+
+   .dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display:none ;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -1.56rem;
+    left: 0;
+    background-color: #e4e4e4;
+    padding: 10px;
+    
+  }
+
+  .menu-items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .menu-items>a{
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .menu-items>a:hover{
+   color: #0061fe;
+  }
+
+  .dropdown-trigger{
+    position: fixed;
+    right: 0;
+    top:0;
+    
+  }
+
+  .dropdown-trigger>img{
+    width: 2.5rem;
+  }
+
+  .dropdown-trigger:hover img{
+    transform: scale(.9);
+  }
+  
+  .dropdown-trigger:hover + .dropdown-menu,
+  .dropdown-menu:hover {
+    display: block;
+    
+  }
+
+  .subContent{
+    width: fit-content;
+    text-align: center;
+   margin: 0 auto 0 10% ;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+}
+
+.sub1{
+    width: 160px;
+   margin-bottom: 1rem;
+   text-align: center;
+ 
+}
+
+
+
+.sub1>p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+
+.pricebox1{
+    text-align: center;
+    width: 47.3%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+  
+}
+  /* Other CSS styles for your header */
+  
