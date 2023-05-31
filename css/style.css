@@ -310,11 +310,23 @@ html, body {
         padding: 10px;
        margin: 50px auto 10px auto;
         font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .getprice>a{
+        text-decoration: none;
+        color: black    ;
     }
     .getprice:hover {
         cursor: pointer;
         background-color: #106bff;
         color: white;
+    }
+    .getprice:hover a {
+        cursor: pointer;
+        background-color: #106bff;
+        color: white;
+        
     }
 
 
@@ -338,6 +350,23 @@ footer{
 
 #contact2{
     text-align: right;
+}
+
+.link1{
+    text-decoration: none;
+    color: black;
+}
+.casual:hover a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.link2{
+    text-decoration: none;
+    color: black;
+}
+.work:hover a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 .contact>h2{
@@ -444,7 +473,7 @@ footer{
       .subContent{
         width: fit-content;
         text-align: center;
-       margin: 0 auto 0 15% ;
+       margin: 0 auto 0 25% ;
         color: white;
         font-family: 'Questrial', sans-serif;
         display: flex;
@@ -515,18 +544,26 @@ footer{
         padding: 10px;
         margin-left: 3px;
         font-size: 1.2rem;
+        
     }
     .getwork:hover {
         cursor: pointer;
         background-color: #106bff;
         color: white;
+
     }
+
+
     
-    
+    .casual>a{
+        text-decoration: none;
+        color: black;
+    }
     
     .casual{
         margin-top: 20px;
         margin-bottom: 20px;
+        
     }
 
     .work{
@@ -579,6 +616,7 @@ footer{
            margin: 50px auto 10px auto;
             font-size: 1.2rem;
         }
+        
       
     
     
